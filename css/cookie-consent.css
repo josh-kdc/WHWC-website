@@ -1,0 +1,68 @@
+/* ============================================================
+   Cookie Consent Banner Styles
+   Walking Home Wellness Coaching
+   Save as: css/cookie-consent.css
+============================================================ */
+
+#cookie-consent-banner {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: #f5f3ee;
+  border-top: 2px solid #8a9a8a; /* sage green */
+  padding: 20px 24px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  font-family: 'Jost', sans-serif;
+  box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.08);
+}
+
+#cookie-consent-banner p {
+  margin: 0;
+  color: #3d4a4a;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 560px;
+}
+
+#cookie-consent-banner a {
+  color: #5a6e8c; /* slate blue */
+  text-decoration: underline;
+}
+
+.cookie-btns {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cookie-btn {
+  font-family: 'Jost', sans-serif;
+  font-size: 13px;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #8a9a8a;
+  background: transparent;
+  color: #3d4a4a;
+  transition: background 0.2s;
+}
+
+.cookie-btn:hover {
+  background: #e8e6df;
+}
+
+.cookie-btn.primary {
+  background: #5a6e8c;
+  color: #fff;
+  border-color: #5a6e8c;
+}
+
+.cookie-btn.primary:hover {
+  background: #4a5c78;
+}
